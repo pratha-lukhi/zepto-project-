@@ -113,8 +113,8 @@ body{
 
 
 .product-details img {
-        width: 200px;
-    /* height: 180px; */
+    width: 200px;
+    height: 180px; 
     object-fit: contain;
     margin-bottom: 10px;
 }
