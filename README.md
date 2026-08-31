@@ -1,39 +1,49 @@
 # 🛒 Zepto Clone Website
 
-A simple **Zepto-inspired grocery shopping website** created using **HTML and CSS**.
-This project recreates the basic layout of a quick-commerce website, including navigation, categories, product sections, banners, and footer sections.
+A **Zepto-inspired grocery shopping website** created using **HTML and CSS**. This project is designed as a frontend practice project to recreate the layout and user interface of a quick-commerce grocery website.
+
+## 🌐 Live Demo
+
+👉 **[View Zepto Clone Website](https://zepto-project-y8bd.vercel.app/)**
 
 ## 📌 Project Overview
 
-This project is a frontend practice project based on the design and layout of **Zepto**.
+This project recreates the basic frontend structure of a Zepto-style shopping website.
 
 It includes:
 
-* Navigation bar
-* Zepto logo
-* Location selection
-* Search bar
-* Login and Cart section
-* Category navigation
-* Promotional banners
-* Product categories
-* Product cards
-* Product prices and ratings
-* ADD buttons
-* Trending Searches
-* Popular Searches
-* Categories section
-* Cities section
-* Social media icons
-* Download App section
+* 🏠 Navigation bar
+* 📍 Delivery location section
+* 🔍 Search bar
+* 👤 Login section
+* 🛒 Cart section
+* 📂 Category navigation
+* 🖼️ Promotional banners
+* 🥦 Product categories
+* 🧺 Laundry Care products
+* 🍫 Chocolate products
+* 💍 Jewellery products
+* 💰 Product prices
+* ⭐ Product ratings
+* ➕ ADD buttons
+* 🔎 Trending Searches
+* 🔥 Popular Searches
+* 📋 Categories section
+* 🏙️ Cities section
+* 📱 Download App section
+* 🔗 Footer links
+* 📱 Social media icons
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Website structure
-* **CSS3** – Styling and layout
-* **Font Awesome** – Icons
-* **Remix Icon** – Category icons
-* **Web images** – Product and banner images
+| Technology   | Purpose                 |
+| ------------ | ----------------------- |
+| HTML5        | Website structure       |
+| CSS3         | Styling and layout      |
+| Font Awesome | Icons                   |
+| Remix Icon   | Category icons          |
+| Flexbox      | Page and product layout |
+| Vercel       | Website deployment      |
 
 ## 📂 Project Structure
 
@@ -49,21 +59,22 @@ zepto/
     └── b-2.webp
 ```
 
-## 🖥️ Main Sections
+## 🖥️ Website Sections
 
 ### 1. Navigation Bar
 
 The navigation bar contains:
 
 * Zepto logo
-* Delivery location
+* Delivery information
+* Location selection
 * Search box
 * Login icon
 * Cart icon
 
 ### 2. Category Navigation
 
-The website provides different categories such as:
+The category menu contains:
 
 * All
 * Cafe
@@ -74,17 +85,17 @@ The website provides different categories such as:
 * Beauty
 * Fashion
 
-### 3. Promotional Banner
+### 3. Promotional Banners
 
-Two promotional banner images are displayed using Flexbox.
+Two banner images are displayed using CSS Flexbox.
 
 ### 4. Product Categories
 
-The project contains grocery and lifestyle categories including:
+The website includes different categories such as:
 
 * Fruits & Vegetables
 * Dairy & Bread
-* Atta & Rice
+* Atta, Rice & Dals
 * Fish & Eggs
 * Masala & Dry Fruits
 * Breakfast & Sauces
@@ -97,6 +108,7 @@ The project contains grocery and lifestyle categories including:
 * Cold Drinks
 * Munchies
 * Biscuits
+* Apparel & Lifestyle
 * Jewellery
 * Personal Care
 * Skin Care
@@ -104,29 +116,13 @@ The project contains grocery and lifestyle categories including:
 
 ### 5. Product Sections
 
-The website contains product sections such as:
+#### 🧺 Laundry Care
 
-**Laundry Care**
+Products include:
 
 * Rin Matic
 * Surf Excel
 * Ariel
-
-**Chocolate**
-
-* Choki Choki
-* Ferrero Rocher
-* M&M's
-* Toblerone
-* Kinder Joy
-
-**Jewellery**
-
-* Bracelets
-* Necklaces
-* Pendants
-* Rings
-* Earrings
 
 Each product card contains:
 
@@ -136,6 +132,26 @@ Each product card contains:
 * Quantity
 * Rating
 * ADD button
+
+#### 🍫 Chocolate
+
+Products include:
+
+* Choki Choki
+* Ferrero Rocher
+* M&M's
+* Toblerone
+* Kinder Joy
+
+#### 💍 Jewellery
+
+Products include:
+
+* Bracelets
+* Necklaces
+* Pendants
+* Rings
+* Earrings
 
 ### 6. Footer
 
@@ -148,12 +164,12 @@ The footer contains:
 * Social media icons
 * Copyright information
 * FSSAI license information
-* Useful website links
+* Useful links
 * Download App section
 
-## 🎨 CSS Features Used
+## 🎨 CSS Concepts Used
 
-Some important CSS properties used in this project are:
+Some of the main CSS properties used in this project are:
 
 ```css
 display: flex;
@@ -171,37 +187,43 @@ width;
 height;
 ```
 
-Flexbox is mainly used to arrange the navigation, categories, banners, products, and footer elements.
+**Flexbox** is mainly used to arrange the navigation bar, categories, banners, product cards, and footer sections.
 
 ## ▶️ How to Run the Project
 
-1. Download or copy the project files.
+1. Clone or download this project.
 2. Open the project folder in **Visual Studio Code**.
 3. Make sure `index.html` and `style.css` are in the correct location.
 4. Make sure the `asset` folder contains the required local images.
 5. Open `index.html` in your browser.
+6. Alternatively, use **Live Server** in VS Code.
 
-You can also use **Live Server** in VS Code to run the website.
+## 🚀 Live Website
 
-## ⚠️ Note
+The project is deployed on Vercel:
 
-This is a **frontend practice project**.
-The search bar, login, cart, and ADD buttons are currently UI elements and do not contain complete backend functionality.
+**https://zepto-project-y8bd.vercel.app/**
 
-## 🚀 Future Improvements
+## 🔮 Future Improvements
 
 The project can be improved by adding:
 
 * Responsive design for mobile and tablet
 * JavaScript functionality
-* Working search system
-* Shopping cart functionality
-* Login/signup pages
-* Product details pages
+* Working search functionality
+* Functional shopping cart
+* Login and signup pages
+* Product details page
 * Quantity controls
+* Product filtering
+* Product sorting
 * Checkout page
 * Payment integration
-* Product filtering and sorting
+* Interactive category navigation
+
+## ⚠️ Disclaimer
+
+This project is created for **educational and frontend practice purposes**. It is not an official Zepto website or application.
 
 ## 👩‍💻 Author
 
@@ -209,4 +231,8 @@ The project can be improved by adding:
 
 ### ⭐ Project
 
-**Zepto Clone Website – HTML & CSS Practice Project**
+**Zepto Clone Website — HTML & CSS Practice Project**
+
+### 🔗 Live Project
+
+**https://zepto-project-y8bd.vercel.app/**
