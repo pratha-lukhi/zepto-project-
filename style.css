@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.nav-Bar{
+   margin: auto;
+   display: flex;
+   gap: 10px;
+   margin-top: 10px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+
+.logo{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+
+.location{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.Search{
+    flex: 1;
+    height: 35px;
+    width: 50px;
+    border: 1px solid #dcdcdc;
+    border-radius:10px ;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.login i{
+     display: flex;
+    flex-direction:column ;
+    font-size: 35px;
+    gap: 10px;
+    margin:auto;
+    margin-top: 20px;
+
+}
+
+
+.lgin{
+    margin-right: 20px;
+}
+
+
+h3{
+    font-size: 20px;
+    gap: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.crt{
+    margin-right: 100px;
+}
+
+
+.cart i{
+     display: flex;
+    flex-direction:column ;
+    font-size: 35px;
+    gap: 10px;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.icons{
+    display: flex;
+    font-size: 40px;
+    gap: 10px;
+    justify-content: center;
+    color: #586274;
+    margin: auto;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+
+.i-1{
+    font-size: 40px;
+    gap: 10px;
+}
+
+.span{
+    font-size: 30px;
+    gap: 25px;
+    margin-right: 20px;
+    color: #586274;
+}
+
+
+
+.banner{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.banner img{
+    width: 800px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.category{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.category img{
+    height: 185px;
+}
+
+
+.category-2{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.category-2 img{
+    height: 185px;
+}
+
+
+p{
+    font-size: 22px;
+}
+
+
+h1{
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.see-all{
+    margin-top: 35px;
+    color: #F9105E;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+
+.heading{
+    display: flex;
+    /* gap: 1780px;  */
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+
+.p-1{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#products{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+
+.product-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.product-details img{
+    height: 170px;
+}
+.product-details img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.btn{
+    display: flex;
+    gap: 60px;
+    margin-top: 10px ;
+}
+
+.add-btn{
+  background-color: white;
+  height: 35px;
+  width: 75px;
+  font-size: 20px;
+  border: 2px solid rgb(255, 0, 128);
+  border-radius: 5px;
+  color: rgb(255, 0, 128);
+  font-weight: 500;
+  box-shadow:3px 3px;
+}
+
+.add-btn:hover{
+    transform: scale(1.1);
+    
+}
+
+.price{
+  background-color: #329537;
+  height: 35px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 3px 3px black;
+}
+.product-name{
+    margin-top: 10px;
+}
+.q-r{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align:left;
+}
+.quantity{
+    margin-top: 10px;
+    color: #586274;
+    margin-left: 25px;
+}
+.ratings{
+    color: #329537;
+    margin-top: 7px;
+}
+.banner-2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.banner-2 img{
+    height: 100%;
+    width: 95%;
+} 
+.footer-section{
+    display: flex;
+    flex-direction: column;
+}
+.footer-title{
+    display: flex;
+    
+
+}
+b{
+    color: black;
+}
+
+.c-1{
+    word-spacing: 10px;
+    margin-left: 100px;
+    color: #586274 ;
+
+}
+.c-2{
+    word-spacing: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #586274 ;
+}
+.c-3{
+     word-spacing: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #586274 ;
+}
+.links-list{
+    display: flex;
+    margin-left: 100px;
+    gap:200px;
+    font-size: 25px;
+}
+.list{
+    display: flex;
+    gap:30px;
+    list-style: none;
+    flex-direction: column;
+}
+.f-d-2{
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+    word-spacing: 10px;
+    line-height: 40px;
+     color: #586274 ;
+}
+
+.footer-2{
+    display: flex;
+    gap: 300px;
+    margin-top: 100px;
+}
+.footer-left{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px; 
+    margin-top: 100px;
+}
+.footer-left img{
+    height: 100px;
+    width: 200px;
+    margin-left: 100px
+    
+}
+.icons-2{
+    margin-left: 90px;
+    gap: 10px;
+}
+.icons-2 i{
+    font-size: 40px;
+    color: #586274;
+
+}
+.copyright{
+    margin-bottom: 200px;
+}
+.f-r-d{
+    color: #586274;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.footer-middle{
+    display: flex;
+    font-size: 25px;
+    margin-top: 100px;
+    gap: 200px;
+}
+.list-2{
+    font-weight: 520;
+       display: flex;
+    gap:30px;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 100px;
+    align-items: center;
+   
+    
+}
+.f-r{
+    margin-right: px;
+}
+.box{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.box img{
+    height: 30px;
+}
+.box-detail{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.f-right-d{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
