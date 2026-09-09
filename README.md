@@ -204,6 +204,9 @@ The project is deployed on Vercel:
 
 https://zepto-project-1vz6.vercel.app/
 
+
+🎥 Explanation video link 🔗 https://drive.google.com/drive/folders/1XjfFqpdInQuxApS1YWOXqiaTZClCg5N8
+
 ## 🔮 Future Improvements
 
 The project can be improved by adding:
