@@ -202,7 +202,7 @@ height;
 
 The project is deployed on Vercel:
 
-**https://zepto-project-y8bd.vercel.app/**
+https://zepto-project-1vz6.vercel.app/
 
 ## 🔮 Future Improvements
 
